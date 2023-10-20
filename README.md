@@ -1,5 +1,3 @@
-# README.md
-
 ## Movie Data Processing and Analysis
 
 This repository contains two Python programs for processing and analyzing movie data. 
