@@ -32,6 +32,7 @@ def search_movies(vandv, search_criteria):
 
 # Function to export top 10 results to a CSV file
 def export_to_csv(results):
+    # Can change to your on-device directory
     file_path = "D:/name.csv"
     results.head(10).to_csv(file_path, index=False)
     print(f"Results exported to {file_path}")
@@ -39,6 +40,7 @@ def export_to_csv(results):
 # Main function to execute the movie search functionality
 def main():
     # Load the dataset from the given path
+    # Can change to your on-device directory
     vandv = pd.read_csv(r"C:\Users\Victus\Downloads\data.csv")
     
     # Calculate the weighted score for all movies
