@@ -33,6 +33,7 @@ def transform_data(input_file, output_file):
     transformed_data.to_csv(output_file, index=False)
     print(f"Data has been transformed and saved to {output_file}")
 
+# Can change to your on-device directory
 input_file = r"C:\Users\Victus\Downloads\movies_metadata (1).csv"
 output_file = r"C:\Users\Victus\Downloads\data.csv"
 transform_data(input_file, output_file)
